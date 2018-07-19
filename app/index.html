@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-12">
+                    <nav class='my-3 d-flex justify-content-between'>
+                        <a href="#personal" class="text-primary">ЛИЧНАЯ ИНФОРМАЦИЯ</a>
+                        <a href="#experience" class="text-dark">ОПЫТ</a>
+                        <a href="#about" class="text-dark">О СЕБЕ</a>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-12 p-0">
+
+                <div class='bg-img w-100'>
+
+                    <div class='grad w-100'>
+                        <div class="container">
+                            <h1 class='header-name text-center'>Анкета</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center font-light" id="personal">
+                    Личная информация
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 d-flex flex-column">
+                    <input type="text" placeholder="ФИО" value="Чуднивец Сергей Сергеевич" class="form-control text-center font-custom my-3" />
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-9">
+                            <select name="year" id="year" class="w-100 text-center form-control font-custom">
+
+                            </select>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Местопроживание" value="Киев, Днепр" class="form-control my-3 text-center font-custom" />
+                    <input type="text" placeholder="Skype" value="Serhiichudnivets" class="text-center my-3 form-control font-custom" />
+                    <input type="text" placeholder="E-mail" value="Serhiichudnivets@gmail.com" class="text-center mt-3 mb-150 form-control font-custom" />
+
+
+
+
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 ">
+                    <h2 class="text-center" id="experience">Расскажите о своем опыте</h2>
+                </div>
+                <div id="ch" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-around">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 d-flex flex-column flx-center">
+
+                        <div>
+                            <input type="checkbox" id="OOCSS" class="form-check-input" checked>
+                            <label for="OOCSS" class="form-check-label font-check">БЭМ/OOCSS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Stylus" class="form-check-input " checked>
+                            <label for="Stylus" class="form-check-label font-check">Stylus/LESS/SASS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="SVG" class="form-check-input" checked>
+                            <label for="SVG" class="form-check-label font-check">Работаю с SVG</label>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 d-flex flex-column flx-center">
+                        <div>
+                            <input type="checkbox" id="semanthic" class="form-check-input" checked>
+
+                            <label for="semanthic" class="form-check-label font-check">Верстаю семантично</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="es5" class="form-check-input" checked>
+                            <label for="es5" class="form-check-label font-check">S2015/ES2016</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="gulp" class="form-check-input" checked>
+                            <label for="gulp" class="form-check-label font-check">Gulp/GRUNT</label>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 d-flex flex-column flx-center">
+                        <div>
+                            <input type="checkbox" id="webpack" class="form-check-input">
+                            <label for="webpack" class="form-check-label font-check">Webpack</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="jquery" class="form-check-input" checked>
+                            <label for="jquery" class="form-check-label font-check">jQuery</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="git" class="form-check-input" checked>
+                            <label for="git" class="form-check-label font-check">Ипользую Git</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center" id="about">Расскажите о себе</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="text-center col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 font-check"> Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center mb-70">
+                    <textarea type="text" placeholder="Понравилась тем, что..." class="font-area col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 h-180 text-start">
+                        Эта вакансия привлекла меня местонахождением компании и интересными обязанностями на работе, думаю я смогу развиваться более быстрым темпом нежели сейчас, скажу честно это моя первая работа верстки по макету, не знаю как я с ней справился, но мне было очень интересно этим заниматься, сейчас я работаю фрилансером в финансовой компании, ежедневно выполняя различные работы front-end направления, каждый день сталкиваюсь с html, css, js практически применяю библиотеку jquery, sql и bootstrap 4, пытаюсь самостоятельно изучить React, и работа в офисе с реальными проектами даст мне возможность структурировать свои знания даст мне хорошую базу для развития.  
+                    </textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <input type="button" value="Готово" class="bton">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+    </footer>
+    <script src="js/common.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
